@@ -12,11 +12,11 @@
 	<description><![CDATA[
 		<h1 style="margin-left:0;text-align:left;">User Agent Template Switcher</h1>
 		<p style="font-family:arial;font-size:12px;"><strong>Important:</strong> set the order of this plugin to bottom of your system plugin list. If the mobile template does not show on mobile, please clear your browser cache!.<br><br>
-		This plugin detects the user agent and can switch to a different template if a mobile device is detected. Based on the original work of <strong>BlackRed Designs</strong>.<br>
+		This plugin detects the user agent and can switch to a different template if a mobile device is detected. Based on the original work of <strong>BlackRed Designs</strong>.<br><br>
+		Version <strong>1.0.0</strong>. Written by <strong><a href="http://www.renekreijveld.nl" target="_blank">René Kreijveld</a></strong>. View on <strong><a href="https://github.com/renekreijveld/UserAgentTemplateSwitcher" target="_blank">github</a></strong>.<br>
 		Makes use of <strong><a href="https://github.com/serbanghita/Mobile-Detect" target="_blank">mobiledetect</a></strong>, a lightweight PHP class for detecting mobile devices.</p>
 		<h3>Version history:</h3>
-		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;font-weight:normal;">Version <strong>1.0.0</strong>. Written by <strong><a href="http://www.renekreijveld.nl" target="_blank">René Kreijveld</a></strong>. View on <strong><a href="https://github.com/renekreijveld/UserAgentTemplateSwitcher" target="_blank">github</a></strong>.<br>
-		Makes use of <strong><a href="https://github.com/serbanghita/Mobile-Detect" target="_blank">mobiledetect</a></strong>, a lightweight PHP class for detecting mobile devices.</p>
+		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;font-weight:normal;">Version <strong>1.0.0</strong>. Initial version.</p>
 	]]>
 	</description>
 	<updateservers>
