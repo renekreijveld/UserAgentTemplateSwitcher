@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+	<name>System - User Agent Template Switcher</name>
+	<author>Rene Kreijveld</author>
+	<creationDate>October 2016</creationDate>
+	<copyright>Copyright (C) 2013-2016 ReneKreijveld.nl. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@renekreijveld.nl</authorEmail>
+	<authorUrl>www.renekreijveld.nl</authorUrl>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description><![CDATA[
+		<h1 style="margin-left:0;text-align:left;">User Agent Template Switcher</h1>
+		<p style="font-family:arial;font-size:12px;"><strong>Important:</strong> set the order of this plugin to bottom of your system plugin list. If the mobile template does not show on mobile, please clear your browser cache!.<br><br>
+		This plugin detects the user agent and can switch to a different template if a mobile device is detected. Based on the original work of <strong>BlackRed Designs</strong>.<br>
+		Makes use of <strong><a href="https://github.com/serbanghita/Mobile-Detect" target="_blank">mobiledetect</a></strong>, a lightweight PHP class for detecting mobile devices.</p>
+		<h3>Version history:</h3>
+		<p style="font-family:arial;font-size:12px;"><strong>1.0.0</strong>: Original version<br/><br>
+		Created by <strong>René Kreijveld</strong>.</p>
+	]]>
+	</description>
+	<updateservers>
+		<server type="extension" priority="1" name="Plugin User Agent Template Switcher">http://www.rkrweb.nl/update/plg_system_uatemplateswitcher/extension.xml</server>
+	</updateservers>
+	<files>
+		<filename plugin="uatemplateswitcher">uatemplateswitcher.php</filename>
+		<filename>uatemplateswitcher.xml</filename>
+		<filename>README.md</filename>
+		<folder>lib</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="awtemplateswitcher" label="Options">
+				<field name="mobile_switch_enabled"
+					type="radio"
+					default="1"
+					class="btn-group"
+					label="Enable Template Switcher"
+					description="If set to 'Yes', your Joomla website will use the template set under 'Mobile template' for mobile visitors.">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="mobile_template"
+					type="folderlist"
+					label="Mobile template"
+					description="Select the template you want to use on mobile screens."
+					directory="../templates"
+					filter=""
+					exclude=""
+					stripext=""
+					default=""
+				/>
+				<field name="include_tablets"
+					type="radio"
+					default="0"
+					class="btn-group"
+					label="Includes Tablets"
+					description="If set to 'Yes', the plugin will also set the template for tablet devices.">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
