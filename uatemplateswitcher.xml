@@ -15,8 +15,8 @@
 		This plugin detects the user agent and can switch to a different template if a mobile device is detected. Based on the original work of <strong>BlackRed Designs</strong>.<br>
 		Makes use of <strong><a href="https://github.com/serbanghita/Mobile-Detect" target="_blank">mobiledetect</a></strong>, a lightweight PHP class for detecting mobile devices.</p>
 		<h3>Version history:</h3>
-		<p style="font-family:arial;font-size:12px;"><strong>1.0.0</strong>: Original version<br/><br>
-		Created by <strong>René Kreijveld</strong>.</p>
+		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;font-weight:normal;">Version <strong>1.0.0</strong>. Written by <strong><a href="http://www.renekreijveld.nl" target="_blank">René Kreijveld</a></strong>. View on <strong><a href="https://github.com/renekreijveld/UserAgentTemplateSwitcher" target="_blank">github</a></strong>.<br>
+		Makes use of <strong><a href="https://github.com/serbanghita/Mobile-Detect" target="_blank">mobiledetect</a></strong>, a lightweight PHP class for detecting mobile devices.</p>
 	]]>
 	</description>
 	<updateservers>
